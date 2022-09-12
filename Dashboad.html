@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>My dashboard</title>
+        <style>
+            table {
+                border: 1px black solid;
+                border-collapse: collapse;
+            }
+            td {
+                border: 1px black solid;
+            }
+            thead {
+                background-color: cyan;
+                font-size: 16pt;
+            }
+            .passed {
+                background-color: green;
+            }
+            .failed {
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My dashboard</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>Quarter</td>
+                    <td>Course </td>
+                    <td>ECs</td>
+                    <td>Exam Type</td>
+                    <td>Grade Awarded</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">1</td>
+                    <td>Program & Career Orientation</td>
+                    <td>2.5</td>
+                    <td>Assesment Website</td>
+                    <td class="passed">10</td>
+                </tr>
+                <tr>
+                    <!-- Quarter 1 -->
+                    <td>Computer Science Basics</td>
+                    <td>5</td>
+                    <td>Written Knowledge Test</td>
+                    <td class="passed">8.7</td>
+                    <tr>
+                    <!-- Quarter 1 -->
+                        <td rowspan="2">Programing Basics</td>
+                        <td rowspan="2">5</td>
+                        <td>Case Study Exam</td>
+                        <td></td>
+                </tr>
+                <tr>
+                    <!-- Quarter 1 -->
+                    <!-- used rowspan to connect them (programing basics and the ECs) -->
+                        <td>Knowledge Test</td>
+                        <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align:center">Year Subjects</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+
+
+<!-- NEW TABLE -->
+
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Quarter</td>
+                    <td>Course </td>
+                    <td>ECs</td>
+                    <td>Exam Type</td>
+                    <td>Grade Awarded</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">1</td>
+                    <td>Program & Career Orientation</td>
+                    <td>2.5</td>
+                    <td>Assesment Website</td>
+                    <td class="passed">10</td>
+                </tr>
+                <tr>
+                    <!-- Quarter 1 -->
+                    <td>Computer Science Basics</td>
+                    <td>5</td>
+                    <td>Written Knowledge Test</td>
+                    <td class="passed">8.7</td>
+                    <tr>
+                    <!-- Quarter 1 -->
+                        <td rowspan="2">Programing Basics</td>
+                        <td rowspan="2">5</td>
+                        <td>Case Study Exam</td>
+                        <td></td>
+                </tr>
+                <tr>
+                    <!-- Quarter 1 -->
+                    <!-- used rowspan to connect them (programing basics and the ECs) -->
+                        <td>Knowledge Test</td>
+                        <td></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align:center">Year Subjects</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+</html>
